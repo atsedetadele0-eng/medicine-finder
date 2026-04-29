@@ -1,0 +1,10 @@
+{
+  "name": "medfinder-root",
+  "version": "1.0.0",
+  "description": "Root package to run the MedFinder application easily",
+  "scripts": {
+    "dev": "cd frontend && npm run dev",
+    "start": "cd backend && npm start",
+    "install-all": "cd backend && npm install && cd ../frontend && npm install"
+  }
+}
